@@ -1,0 +1,4 @@
+ansible_user: ubuntu 
+ansible_ssh_private_key_file: /home/sebastian/.ssh/ansible
+ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+nginx_config_path: /etc/nginx/conf.d
